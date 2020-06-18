@@ -1,0 +1,363 @@
+/*
+The Purpose of the Stylesheet is to add the styling to "header-1"
+@ version 0.0.1
+*/
+
+/*
+	Created on : <18th-Sep-2019>
+    Author     : <csk>
+*/
+
+/* Table of Content
+
+	1.	cust-map
+	2.  footer
+
+*/
+
+
+.open-sans {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.bold-cls {
+	font-weight: bold;
+}
+
+.italic-cls {
+	font-style: italic;
+}
+
+/* Services */
+
+.services-heading {
+	margin-top: 20px;
+}
+
+.services-inner {
+	padding: 10px;
+	outline: 1px solid #ddd;
+	outline-offset: 2px;
+	text-align: left;
+}
+
+.services-head {
+	/*position: relative;*/
+	text-align: left;
+}
+
+.services-head h3 {
+	font-size: 20px;
+}
+
+.services-head > h3:after {
+	content: "";
+	position: absolute;
+	border-bottom: 2px solid #ff8500;
+	width: 100px; 
+	top: 17%;
+	left: 7%;
+}
+
+.services-txt {
+	line-height: 1.5;
+	padding-bottom: 30px;
+}
+
+.services-txt p {
+	font-size: 14px;
+}
+
+.services-inner:hover {
+	/*opacity: 0;*/
+	/*visibility: hidden;*/
+	border: 2px solid red;
+	cursor: pointer;
+}
+.overlay-cls {
+	position: absolute;
+	top: 0;
+	/*visibility: hidden;*/
+	width: 92%;
+	height: 100%;
+	background-image: linear-gradient(to right,rgba(0, 188, 243, 0.6),rgba(255, 133, 0, 0.6));
+	opacity: 1;
+	transition: ease-in-out all 0.5s;
+}
+/* Akhila*/
+
+.gtr_offers_head h2 {
+	font-size: 30px;
+}
+
+.gtr_offers_head > h2:after {
+	content: "";
+	position: absolute;
+	border-bottom: 2px solid #ff8500;
+	width: 100px; 
+	top: 13%;
+	left: 42%;
+}
+.gtr_offers_icons {
+	width: 95%;
+    margin-left: 10%;
+}
+.gtr_orange > i{
+	margin-top: 10px;
+    display: flex;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    padding: 18px;
+    font-size: 30px;
+	background-color: #ff8500;
+	color: white;
+	-webkit-box-shadow: 0px 0px 10px 1px #666666; 
+	box-shadow: 0px 0px 10px 1px #666666;
+	cursor: pointer;
+	transition: all 1s;
+}
+.gtr_orange > i:hover {
+	box-shadow: none;
+}
+
+.gtr_offer_txt h5 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.gtr_offer_txt p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.gtr_offer_txt:hover h5 {
+	color:#ff8500;
+}
+
+/* Clients */
+.gtr_clients {
+	margin-top: 7%;
+	background-color: #01bcf3;
+	height: 90vh;
+}
+.gtr_clients_head > h2 {
+	font-size: 45px;
+}
+.gtr_clients_head > h2:after {
+	content: "";
+	position: absolute;
+	border-bottom: 2px solid #ff8500;
+	width: 130px; 
+	top: 750px;
+	left: 34%;
+}
+
+/* owl-carsouel*/
+
+#demos {
+	padding: 50px 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+#car-item {
+	background-color: red;
+}
+
+/* map */
+
+.cust-map {
+	margin-bottom: 80px;
+	padding: 10px;
+	width: 98%;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+
+.map-form {
+	/*padding: 20px;*/
+	/*margin: 0;*/
+	
+}
+
+.form-layer {
+	width: 100%;
+	height: 450px;
+	background-image: linear-gradient(to right,rgba(0, 188, 243, 0.6),rgba(255, 133, 0, 0.6));
+}
+
+.form-map {
+	color: #fff;
+	text-align: center;
+	background-image: url('../images/form-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.map-map {
+	/*margin: 0;*/
+	/*padding: 0;*/
+	-webkit-box-shadow: -7px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -7px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -7px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.cont-ele {
+	margin: 15px 0px;
+}
+
+.submit-button {
+	padding: 15px 30px;
+	background-color: rgb(255,133,0);
+	border: none;
+	border-radius: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* footer */
+.footer {
+	padding: 0;
+	margin: auto;
+	width: 98%;
+	background-image: linear-gradient(rgb(0,3,8), rgb(0,1,27));
+	color: #fff;
+	/*border: 2px solid yellow;*/
+	overflow-x: hidden;
+}
+
+.footer-inner {
+	/*border: 1px solid red;*/
+	/*padding: 10px;*/
+}
+
+.foot-heading {
+	/*border-bottom: 2px solid black;*/
+	color: #fff;
+}
+
+.foot-heading h2 {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.foot-content {
+	margin-top: 20px;
+}
+
+.foot-content p {
+	line-height: 1.5;
+}
+
+.addres-line {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0px;
+}
+
+.addres-icon {
+	width: 15%;
+	/*border: 2px solid green;*/
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.addres-icon i {
+	font-size: 30px;
+}
+
+.addres-content {
+	width: 80%;
+	/*border: 2px solid red;*/
+}
+
+.form-ele {
+	margin: 15px 0px;
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+.form-ele::placeholder {
+	/*color: #fff;*/
+}
+
+.submit-btn,
+.subscribe-btn {
+	padding: 15px 30px;
+	background-color: rgb(255,133,0);
+	border: none;
+	color: #fff;
+}
+
+.cust-link {
+	margin-left: 20px;
+	display: block;
+	line-height: 2;
+	color: #fff;
+	font-size: 20px;
+}
+
+.subscribe-cls {
+	margin-top: 50px;
+}
+
+.subscribe-form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.email-cls {
+	width: 65%;
+}
+
+.email-cls input {
+	padding: 15px 0;
+}
+
+/* Social */
+
+.social-icons {
+	margin-top: 20px;
+	width: 70%;
+	/*border: 2px solid red;*/
+}
+
+.social-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.social-link {
+	color: #fff;
+	font-size: 30px;
+}
+
+/* copyrights */
+.copyrights-cls {
+	margin-top: 30px;
+	border-top: 2px solid rgb(47,59,75);
+}
+
+.motos {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	width: 50%;
+	/*color: #fff;*/
+}
+
+.moto-link {
+	color: #fff;
+}
+
+.copyright-bottom {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.copyright-bottom h2 {
+	font-size: 30px;
+}
